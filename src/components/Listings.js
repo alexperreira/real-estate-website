@@ -97,10 +97,22 @@ const Listings = () => {
 		<Section>
 			<Container>
 				<Heading>
-					<h1>View our newest homes</h1>
+					<h1
+						data-aos='fade-right'
+						data-aos-duration='1000'
+						data-aos-once='true'
+						data-aos-anchor-placement='center-bottom'
+					>
+						View our newest homes
+					</h1>
 				</Heading>
 				<InfoRow>
-					<InfoWrap>
+					<InfoWrap
+						data-aos='zoom-out-up'
+						data-aos-duration='1200'
+						data-aos-once='true'
+						data-aos-anchor-placement='center-bottom'
+					>
 						<ImageOne src={HomeOne} alt='home' />{' '}
 						<h2>8 Bed 10 Bath house in Venice Beach, California</h2>
 						<InfoLink to='/homes'>
@@ -108,7 +120,12 @@ const Listings = () => {
 							<Arrow />
 						</InfoLink>
 					</InfoWrap>
-					<InfoWrap>
+					<InfoWrap
+						data-aos='zoom-out-down'
+						data-aos-duration='1200'
+						data-aos-once='true'
+						data-aos-anchor-placement='center-bottom'
+					>
 						<ImageTwo src={HomeTwo} alt='home' />{' '}
 						<h2>4 Bed 2 Bath house in Miami, Florida</h2>
 						<InfoLink to='/homes'>
